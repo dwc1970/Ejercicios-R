@@ -1,0 +1,13 @@
+# Crear un data frame que luego guardaremos como archivo CSV
+datos_iniciales <- data.frame(
+  Nombre = c("Ana", "Luis", "Carlos", "Marta", "Pedro"),
+  Edad = c(25, 30, 22, 28, 35),
+  Ciudad = c("Madrid", "Barcelona", "Valencia", "Madrid", "Barcelona")
+)
+
+# Guardar el data frame como un archivo CSV
+write.csv(datos_iniciales, "datos.csv", row.names = FALSE)
+
+# Mensaje para verificar
+print("Archivo 'datos.csv' creado en el directorio actual.")
+
