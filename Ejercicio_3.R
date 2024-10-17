@@ -1,6 +1,6 @@
 # 3 -Un dado está trucado, de forma que las probabilidades de obtener las distintas caras
 # son proporcionales a los números de estas.Hallar:
-# A : La probabilidad de obtener el 6 en un lanzamiento
+# A : La probabilidad de obtener el 6 en un lanzamiento.
 # B . La probabilidad de conseguir un número impar en un lanzamiento
 
 # Asignar probabilidades para cada cara del dado
