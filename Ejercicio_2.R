@@ -19,7 +19,7 @@ probabilidad <- fichas_cumplen / total_fichas
 # prerparamos los datos para el grafico
 domino$condicion <- ifelse(condicion, "Cumple", "No cumple")
 
-# Graficamos las fichas  que cumplan la condicion 
+# Graficamos las fichas  que cumplan la condición
 library(ggplot2)
 ggplot(domino, aes(x = factor(lado1), y = factor(lado2), fill = condicion))+
   geom_tile(color = "black")+
